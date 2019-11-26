@@ -16,6 +16,6 @@ const myLogger = (store) => (next) => (action) => {
 const store = createStore (
   rootReducer,
   {},
-  composeEnhancers(applyMiddleware(myLogger, thunk)),
+  composeEnhancers(applyMiddleware(myLogger, thunk))
 );
 export default store;
