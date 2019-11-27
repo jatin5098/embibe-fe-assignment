@@ -11,7 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+#root {
+  position: relative;
+  top: 80px;
+}
 // Utility
 .m-y-10 {
   margin: 10px 0;

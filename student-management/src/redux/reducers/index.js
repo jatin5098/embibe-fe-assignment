@@ -22,6 +22,18 @@ const dashboardReducer = (state = {
       }
       state.filterStudentList = [].concat(action.payload.filterList);
       break;
+    case 'SORT_BY_NAME':
+      state = {
+        ...state
+      }
+      state.filterStudentList = [].concat(action.payload.sortedList);
+      break;
+    case 'SORT_BY_MARK':
+      state = {
+        ...state
+      }
+      state.filterStudentList = [].concat(action.payload.sortedList);
+      break;
   }
   return state;
 };
