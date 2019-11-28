@@ -33,7 +33,7 @@ class Dashboard extends Component {
                                     <div
                                         key={'card_' + i}
                                         className="col-sm-6 col-md-4 m-y-10">
-                                        <div className="card text-center">
+                                        <div className="card text-center box-shadow">
                                             <div className="card-body">
                                                 <h5 className="card-title text-uppercase text-black-50">{e.name}</h5>
                                                 <h6 className="card-title border-top border-success border-bottom">{e.rollNo}</h6>
