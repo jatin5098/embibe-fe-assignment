@@ -1,6 +1,6 @@
 # embibe-fe-assignment
 
-#Features
+# Features
 
 1. User Login (Firebase and Google)
 2. Dashboard View
